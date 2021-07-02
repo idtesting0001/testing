@@ -1,7 +1,6 @@
 name: Deploy to Firebase
 on: [push, schedule]
   push:
-    branches: [ master ]
   schedule:
     - cron:  '0 0 * * *'
 
